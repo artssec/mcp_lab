@@ -62,6 +62,30 @@ java -version
    - Ruta al ejecutable de Java y al JAR / proxy de Burp (`mcp-proxy.jar` o equivalente).
 
 
+## Instalación de Burp MCP y mcp-proxy.jar
+
+Para que el servidor MCP de Burp funcione correctamente, necesitas instalar la extensión oficial "Burp MCP Server" en Burp Suite y descargar el archivo `mcp-proxy.jar`:
+
+1. Abre Burp Suite y ve a la pestaña **Extensiones** (BApp Store).
+2. Busca e instala la extensión **Burp MCP Server**.
+3. Una vez instalada, ingresa a la extensión MCP en las tools y descarga `mcp-proxy.jar` haciendo click en el botón **Extract server proxy jar**
+4. Copia la ruta completa de `mcp-proxy.jar` y actualízala en el campo correspondiente de `.vscode/mcp.json`:
+
+```jsonc
+"burp": {
+    "command": "/usr/bin/java",
+    "args": [
+        "-jar",
+        "/ruta/a/mcp-proxy.jar", // <--- Actualiza aquí la ruta real
+        "--sse-url",
+        "http://127.0.0.1:9876"
+    ]
+}
+```
+
+Sin este archivo, el servidor MCP de Burp no podrá iniciar ni comunicarse con VSCode.
+
+
 ## Descripción de los Servidores MCP
 
 | Servidor   | Función                                                | Casos de uso                                                                       |
