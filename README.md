@@ -1,7 +1,20 @@
-# Laboratorio MCP + VSCode + GitHub Copilot para Pentesting Controlado
+# Hacking Day 2025 — Laboratorio de Pentesting con MCP, VSCode y Copilot
 
 > [!IMPORTANT]
 > Documentación en desarrollo.
+
+**Evento:** [Hacking Day 2025](https://www.hackingday.com.ar/) — 8/8, Paraná, Entre Ríos, Argentina
+
+Jornada intensiva dedicada a la ciberseguridad, la cultura hacker y la innovación tecnológica.
+
+**Laboratorio:** MCP + VSCode + GitHub Copilot para Pentesting Controlado
+
+**Laboratorio presentado por Hugo Avila**
+
+Contacto:
+- Linkedin: [devhugoavila](https://www.linkedin.com/in/devhugoavila/)
+- GitHub: [hugok2k](https://github.com/hugok2k)
+- X: [@hugok2k](https://x.com/hugok2k)
 
 Este laboratorio muestra cómo orquestar agentes MCP (filesystem, playwright y burp) desde VSCode con GitHub Copilot para apoyar un proceso de pentesting educativo, limitado y documentado. El enfoque es enseñar metodología, no explotación agresiva.
 
