@@ -3,7 +3,7 @@
 - **Clasificación OWASP:** [EJ: A01:2021 - Broken Access Control]
 - **Fecha:** $(date)
 - **Severidad:** [Crítica / Alta / Media / Baja]
-- **URL Afectada:** [https://es.wiktionary.org/wiki/complet%C3%A1](https://es.wiktionary.org/wiki/complet%C3%A1)
+- **URL Afectada:** EJ: [https://es.wiktionary.org/wiki/complet%C3%A1](https://es.wiktionary.org/wiki/complet%C3%A1)
 - **Parámetro Afectado:** [Si aplica, ej: 'id', 'username']
 
 ### Evidencia (Prueba de Concepto)
