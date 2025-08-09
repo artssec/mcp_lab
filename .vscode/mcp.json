@@ -4,7 +4,7 @@
 			"command": "npx",
 			"args": [
 				"@playwright/mcp@latest",
-        "--proxy-server=http://127.0.0.1:8080"
+        "--proxy-server=http://127.0.0.1:8080" // Proxy para las solicitudes de Playwright pasen por Burp Suite
 			],
 			"type": "stdio"
 		},
@@ -13,15 +13,14 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
-        "/home/phara/HackingDay2025/mcp-lab",
-        "/home/phara/Tools/shcheck"
+        "/home/user/mcp-lab", // Ruta al directorio del proyecto
       ]
     },
 		"burp": {
       "command": "/usr/bin/java",
       "args": [
           "-jar",
-          "/home/phara/HackingDay2025/mcp-proxy.jar",
+          "/home/user/mcp-proxy.jar", // Ruta al archivo JAR de Burp Suite
           "--sse-url",
           "http://127.0.0.1:9876"
       ]
