@@ -17,7 +17,7 @@
       ]
     },
 		"burp": {
-      "command": "/usr/bin/java",
+      "command": "/usr/bin/java", // Ruta al ejecutable de Java
       "args": [
           "-jar",
           "/home/user/mcp-proxy.jar", // Ruta al archivo JAR de Burp Suite
