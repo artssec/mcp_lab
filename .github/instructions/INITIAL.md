@@ -3,12 +3,4 @@
 # Comando:
 `curl -I http://dominio.com`
 
-2. Realizar un escaneo de cifrado TLS con sslscan.
-# Objetivo: Verificar si el servidor usa protocolos o cifrados débiles y obsoletos.
-# Comando:
-`sslscan --no-colour https://dominio.com`
-
-3. Realizar un escaneo de cabeceras de seguridad con shcheck.
-# Objetivo: Auditar la implementación de cabeceras de seguridad (CSP, HSTS, etc.).
-# Comando:
-`python3 /home/phara/Tools/shcheck/shcheck.py https://dominio.com/`
+// Acá pueden ir las herramientas que queremos que se ejecute al principio, Ej. shcheck (para ver las cabeceras), sslscan (para ver el cifrado), etc.
