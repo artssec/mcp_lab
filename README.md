@@ -73,6 +73,7 @@ java -version
 4. Revisar y, si hace falta, editar rutas en `.vscode/mcp.json` para que coincidan con tu entorno local:
    - Ruta del directorio del proyecto para el servidor `filesystem`.
    - Ruta al ejecutable de Java y al JAR / proxy de Burp (`mcp-proxy.jar` o equivalente).
+5. **IMPORTANTE**: en VSCode hay que poner a Copilot en modo **Agent** (modo Ask y Edit no sirven para utilizarlo de esta manera)
 
 
 ## Instalación de Burp MCP y mcp-proxy.jar
